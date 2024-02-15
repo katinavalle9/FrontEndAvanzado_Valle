@@ -33,7 +33,7 @@ export const CartProvider = ({ children }) => {
         // Añadir al carrito solo con id, nombre y cantidad
         const newItem = {
           id: item.id,
-          name: item.product_name, // Asegúrate de que este es el campo correcto para el nombre
+          name: item.product_name, 
           price: item.price,
           quantity: quantityToAdd
         };

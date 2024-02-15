@@ -5,8 +5,7 @@ const Search = () => {
   const { setSearchQuery } = useSearch();
 
   const handleSearch = (e) => {
-    e.preventDefault(); // Evita que el formulario se envíe/reinicie la página
-    // Actualiza directamente el contexto con el valor del input
+    e.preventDefault(); 
     setSearchQuery(e.target.value);
   };
 
